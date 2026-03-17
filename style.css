@@ -6,7 +6,7 @@ body {
     background-color: #00AEEF;
     color: white;
 }
-.top {
+.top1 {
     border: 5px white solid;
     height: 10vh;
     text-align: center;
@@ -17,6 +17,19 @@ body {
     justify-content: center;
     margin-top: 1vh;
 }
+
+.top2{
+    border: 5px black solid;
+    height: 10vh;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
 .navv {
     background-color: darkgrey;
     padding: 0%;
@@ -28,12 +41,16 @@ body {
     color: black;
 }
 
-.nvps:hover {
-    opacity: 0.3;
+nav:has(a:hover) a:not(:hover) {
+  opacity: 0.3;
 }
 
 .nvp:hover {
     background-color: darkgrey;
     text-decoration: underline;
-    opacity: 0.9;
+}
+
+.kard {
+    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, 0.3);
 }
