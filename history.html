@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treviso</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -21,76 +23,108 @@
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary navv">
-        <div class="container-fluid navv">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav nvps">
-                    <a class="nav-link nvp" href="#">Art and culture</a>
-                    <a class="nav-link nvp" href="history.html">History</a>
-                    <a class="nav-link nvp" href="geography.html">Geography</a>
-                    <a class="nav-link nvp" href="#">Interesting facts</a>
+            <div class="container-fluid navv">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nvps">
+                        <a class="nav-link nvp" href="index.html">Homepage</a>
+                        <a class="nav-link nvp" href="artandculture.html">Art and culture</a>
+                        <a class="nav-link nvp" href="history.html">History</a>
+                        <a class="nav-link nvp" href="geography.html">Geography</a>
+                        <a class="nav-link nvp" href="facts.html">Interesting facts</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     <div class="text-center top2"><b>History</b></div>
-    <div class="card mb-3 mx-auto kard" style="width: 80vw; margin-top: 2vh;">
+    <div class="card mx-auto kard" style="width: 80vw; margin-top: 10vh; margin-bottom: 10vh;" data-aos="fade-left">
         <div class="row g-0 d-flex align-items-center">
             <div class="col-md-4">
-                <img src="history1.png" class="img-fluid rounded-start d-block mx-auto" alt="frescoes located on the west wall of the Salone della Ragione">
+                <img src="img/history1.png" class="img-fluid rounded-start"
+                    alt="frescoes located on the west wall of the Salone della Ragione">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
                     <h5 class="card-title">The Golden Age of the Free Comune (12th – 14th Century)</h5>
-                    <p class="card-text">During this period, Treviso experienced its peak of cultural and political splendor. It became a powerful independent municipality, known throughout Italy as the "Marca Gioiosa et Amorosa" (the Joyous and Amorous March).</p>
-                    <p class="card-text">Cultural Climate: The city was a hub for "courtly life," famous for its festivals, knightly tournaments, and Provençal literature. It was the place where the nobility and the wealthy merchant class celebrated life and the arts.
+                    <p class="card-text">During this period, Treviso experienced its peak of cultural and political
+                        splendor. It became a powerful independent municipality, known throughout Italy as the "Marca
+                        Gioiosa et Amorosa" (the Joyous and Amorous March).</p>
+                    <p class="card-text">Cultural Climate: The city was a hub for "courtly life," famous for its
+                        festivals, knightly tournaments, and Provençal literature. It was the place where the nobility
+                        and the wealthy merchant class celebrated life and the arts.
 
-Urban Layout: The city’s most iconic buildings were constructed during these years, including the Palazzo dei Trecento (the seat of the city council) and the original medieval wall structure.
+                        Urban Layout: The city’s most iconic buildings were constructed during these years, including
+                        the Palazzo dei Trecento (the seat of the city council) and the original medieval wall
+                        structure.
 
-The End of Autonomy: After a period of internal strife between factions (Guelphs and Ghibellines) and the rule of powerful local lords like the Da Romano and Da Camino families, the city realized that to survive the ambitions of its neighbors (especially the Scaligeri of Verona), it needed a powerful ally.</p>
+                        The End of Autonomy: After a period of internal strife between factions (Guelphs and
+                        Ghibellines) and the rule of powerful local lords like the Da Romano and Da Camino families, the
+                        city realized that to survive the ambitions of its neighbors (especially the Scaligeri of
+                        Verona), it needed a powerful ally.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card mb-3 mx-auto kard" style="width: 80vw;">
-        <div class="row g-0 d-flex align-items-center">
+    <div class="card mx-auto kard" style="width: 80vw; margin-bottom: 10vh;" data-aos="fade-right">
+        <div c marginlass="row g-0 d-flex align-items-center">
             <div class="col-md-4">
-                <img src="history2.jpg" class="img-fluid rounded-start d-block mx-auto" alt="Lion of Saint Mark">
+                <img src="img/history2.jpg" class="img-fluid rounded-start" alt="Lion of Saint Mark">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
                     <h5 class="card-title">The Rule of the Serenissima (1389 – 1797)</h5>
-                    <p class="card-text">In 1389, Treviso voluntarily joined the Republic of Venice. This formed an unbreakable bond that lasted four centuries and completely transformed the city's appearance.</p>
-                    <p class="card-text">The Fortress of Venice: Treviso became the primary defensive outpost on the mainland for the Republic. In the early 1500s, to protect it from the League of Cambrai, the massive Renaissance walls were built—the ones we see today—designed by Fra’ Giocondo. The course of the Botteniga river was diverted to create a sophisticated system of floodable moats.
+                    <p class="card-text">In 1389, Treviso voluntarily joined the Republic of Venice. This formed an
+                        unbreakable bond that lasted four centuries and completely transformed the city's appearance.
+                    </p>
+                    <p class="card-text">The Fortress of Venice: Treviso became the primary defensive outpost on the
+                        mainland for the Republic. In the early 1500s, to protect it from the League of Cambrai, the
+                        massive Renaissance walls were built—the ones we see today—designed by Fra’ Giocondo. The course
+                        of the Botteniga river was diverted to create a sophisticated system of floodable moats.
 
-Economy and Villas: Under the Lion of Saint Mark, Treviso prospered through agriculture and mills. Venetian nobles began building magnificent villas in the surrounding countryside, using the city as a logistical hub and a summer retreat.
+                        Economy and Villas: Under the Lion of Saint Mark, Treviso prospered through agriculture and
+                        mills. Venetian nobles began building magnificent villas in the surrounding countryside, using
+                        the city as a logistical hub and a summer retreat.
 
-The Venetian Imprint: The architecture became more refined, the canals were enhanced, and the city took on that elegant, water-oriented character that still defines it today.</p>
+                        The Venetian Imprint: The architecture became more refined, the canals were enhanced, and the
+                        city took on that elegant, water-oriented character that still defines it today.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="card mb-3 mx-auto kard" style="width: 80vw;">
-        <div class="row g-0 d-flex align-items-center">
+    <div class="card mx-auto kard" style="width: 80vw; margin-bottom: 10vh;" data-aos="fade-left">
+        <div c marginlass="row g-0 d-flex align-items-center">
             <div class="col-md-4">
-                <img src="History3.jpg" class="img-fluid rounded-start d-block mx-auto" alt="bombing of the Palazzo dei Trecento">
+                <img src="img/History3.jpg" class="img-fluid rounded-start"
+                    alt="bombing of the Palazzo dei Trecento">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
                     <h5 class="card-title">The Tragedy of 1944 and the Modern Rebirth</h5>
-                    <p class="card-text">The 20th century deeply scarred Treviso, bringing it to the brink of total destruction before it transformed into a modern economic powerhouse.</p>
-                    <p class="card-text">The Good Friday Bombing: On April 7, 1944, a devastating Allied bombing raid hit the historic center. In just a few minutes, about 80% of the buildings were damaged or destroyed (including the Palazzo dei Trecento), and thousands of civilians lost their lives. It remains a profound wound in the city's soul.
+                    <p class="card-text">The 20th century deeply scarred Treviso, bringing it to the brink of total
+                        destruction before it transformed into a modern economic powerhouse.</p>
+                    <p class="card-text">The Good Friday Bombing: On April 7, 1944, a devastating Allied bombing raid
+                        hit the historic center. In just a few minutes, about 80% of the buildings were damaged or
+                        destroyed (including the Palazzo dei Trecento), and thousands of civilians lost their lives. It
+                        remains a profound wound in the city's soul.
 
-Reconstruction "As it was": Treviso had the strength to rebuild itself while respecting its original style, painstakingly restoring medieval frescoes and facades that seemed lost forever.
+                        Reconstruction "As it was": Treviso had the strength to rebuild itself while respecting its
+                        original style, painstakingly restoring medieval frescoes and facades that seemed lost forever.
 
-The "Economic Miracle": From the 1960s onward, the city became the beating heart of one of Europe’s most productive areas (the "North-East model"). It is now linked to global brands like Benetton and De'Longhi, and is famous worldwide for Prosecco and as the birthplace of Tiramisù.</p>
+                        The "Economic Miracle": From the 1960s onward, the city became the beating heart of one of
+                        Europe’s most productive areas (the "North-East model"). It is now linked to global brands like
+                        Benetton and De'Longhi, and is famous worldwide for Prosecco and as the birthplace of Tiramisù.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
