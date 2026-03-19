@@ -1,11 +1,11 @@
 # italian-job
 
-ppt-r;__
-writing-r;__
-pictures-r;__
-astetics-r;__
-index.html-r; z;__
-geography.html-r; z;__
-history.html-z;__
-facts.html-z;__
+ppt-r;  
+writing-r;  
+pictures-r;  
+astetics-r;  
+index.html-r; z;  
+geography.html-r; z;  
+history.html-z;  
+facts.html-z;  
 artandculture-z;
